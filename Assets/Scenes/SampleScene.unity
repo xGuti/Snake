@@ -291,7 +291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _direction: {x: 0, y: 0}
-  _speed: 0
+  _lastPosition: {x: 0, y: 0}
   _segmentPrefab: {fileID: 1925080600843384256, guid: 30257579cebe32840adfdb889c6ac77d, type: 3}
   _gameManager: {fileID: 732826666}
 --- !u!61 &490273987
@@ -1028,7 +1028,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3808595116713492343, guid: bd1292ad111f50844a74c174b23e460e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 3808595116713492343, guid: bd1292ad111f50844a74c174b23e460e, type: 3}
       propertyPath: m_LocalPosition.y

@@ -8,7 +8,6 @@ public class PointScript : MonoBehaviour
     {
         SetRandomPosition();
     }
-
     private void SetRandomPosition()
     {
         gameObject.transform.position = new Vector3(

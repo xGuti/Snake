@@ -7,8 +7,9 @@ public class ScoreScript : MonoBehaviour
 {
     public static int _score = 0;
     private TextMeshProUGUI _tmp;
-        private void Start()
+    private void Start()
     {
+        _score = 0;
         _tmp = GetComponent<TextMeshProUGUI>();
     }
     void Update()
