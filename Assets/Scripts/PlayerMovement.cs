@@ -66,4 +66,8 @@ public class PlayerMovement : MonoBehaviour
 
         _segments.Add(segment);
     }
+    public List<Transform> GetSegments()
+    {
+        return _segments;
+    }
 }
