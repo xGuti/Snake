@@ -4,9 +4,26 @@ using UnityEngine;
 
 public class PointScript : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void Start()
     {
-        if (collision.collider.name == "Player")
-            Destroy(gameObject);
+        SetRandomPosition();
+    }
+
+    private void SetRandomPosition()
+    {
+        gameObject.transform.position = new Vector3(
+            Random.Range(-16, 16),
+            Random.Range(-8, 8),
+            0.0f
+            );
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.name == "Player")
+        {
+            ScoreScript._score += 100;
+            SetRandomPosition();
+            //Destroy(gameObject);
+        }
     }
 }
