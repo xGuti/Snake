@@ -1,2 +1,1 @@
-*.shader linguist-detectable=false
-*.vb linguist-detectable=true
+*/*/Snake/*.vb linguist-generated=true
