@@ -1,4 +1,4 @@
-# Snake (in progress)
+# Snake
  Gamedev challenge #4
 
 Project number #4 of gamedev practice challenge inspirated by https://gamefromscratch.com/just-starting-out-what-games-should-i-make/ .
@@ -18,4 +18,4 @@ Unity project of simple assets snake game. Player eats points to grow the snake 
  - Randomize points spawning place :heavy_check_mark:
  - Growing up system ✔️
  - Score system :heavy_check_mark:
- - Add own score font to TMP
+ - Add own score font to TMP :heavy_check_mark:
